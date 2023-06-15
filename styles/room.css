@@ -143,18 +143,23 @@
 }
 
 #message__form {
+  
   width: 100%;
+  
   max-width: 220px;
   position: fixed;
   bottom: 0;
   display: block;
   background-color: #1a1a1a;
   padding: 1em;
-  border-right: 1px solid #333;
+  
+  
+  
 }
 
 #message__form input {
   color: #fff;
+  
   border: none;
   border-radius: 5px;
   padding: 18px;
@@ -282,6 +287,9 @@
 
   #messages__container {
     display: none;
+  }
+  #message__form input {
+    width: 9rem;
   }
 
   #chat__button {
